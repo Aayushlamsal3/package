@@ -1,0 +1,1887 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(245, 214, 137);
+}
+
+.main-container {
+  margin: 3em auto;
+  width: 50%;
+  padding: 1em;
+  background: #f4f4f4;
+  border-radius: 12px;
+  box-shadow: 36px -22px 34px -22px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: 36px -22px 34px -22px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 36px -22px 34px -22px rgba(0, 0, 0, 0.42);
+}
+
+.MAIN-BOX {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  padding: 15px;
+}
+
+.payment-btn button {
+  flex-direction: row;
+  height: 40px;
+  width: 48%;
+  color: white;
+  background-color: #d43128;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 1em;
+  font-size: 18px;
+}
+
+.payment-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Big-Box1 {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: fit-content;
+  border: none;
+  margin: 1em;
+}
+
+.bluebook-img {
+  width: 100%;
+  padding-top: 1em;
+  padding-left: 0.5em;
+}
+
+.p2 {
+  display: flex;
+  gap: 20px;
+  color: #7022c3;
+  justify-content: center;
+  align-items: center;
+}
+
+.p2 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.p2 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.first {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+.second {
+  margin-top: 5px;
+}
+
+.logo img {
+  height: 135px;
+  width: 135px;
+}
+
+.p3 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+label {
+  font-weight: 600;
+}
+
+form {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+form input {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+form select {
+  margin-bottom: 10px;
+  height: 25px;
+  width: 307px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+label span {
+  color: red;
+}
+
+.manu-inp {
+  border-radius: 4px;
+  height: 2.4em;
+  border: 1px solid gray;
+  width: 300px;
+  margin-top: 10px;
+  padding-left: 10px;
+
+  font-size: 16px;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.checkbox-container label {
+  margin-left: 5px;
+  font-size: 1.1em;
+}
+
+.checkbox-container input {
+  height: 15px;
+  width: 15px;
+}
+
+input[type="checkbox"] {
+  margin: 0;
+}
+
+.vehicle-type {
+  height: 30px;
+  width: 40%;
+}
+
+.Vehicle-type-cont select {
+  margin-top: 10px;
+  padding-left: 5px;
+  height: 2.4em;
+  color: rgb(0, 0, 0);
+}
+
+.last-renewal input {
+  height: 2.4em;
+  padding: 1em;
+  border-radius: 4px;
+  width: 100%;
+  border: 1px solid gray;
+}
+
+.last-renewal {
+  display: flex;
+}
+
+.inp-bs {
+  width: 75px;
+  height: 25px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.last-renewal span {
+  margin-top: 13px;
+  font-weight: 650;
+}
+
+.terms {
+  color: #6629a6;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.note {
+  margin-top: 10px;
+  margin-bottom: 1em;
+  padding: 1em;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  width: fit-content;
+  color: rgb(83, 83, 83);
+  background-color: #f3eef9;
+  border: 0.5px solid rgb(108, 108, 108);
+}
+
+.calculate {
+  height: 40px;
+  width: 120px;
+  color: white;
+  background-color: #5d2e8e;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin-top: 0.5em;
+}
+
+.calculate:hover {
+  background-color: #39b33d;
+}
+
+.btn-link {
+  color: white;
+  text-decoration: none;
+}
+
+.Title {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.phone-icon {
+  font-weight: 600;
+  font-size: 22px;
+  margin-right: 7px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.message-icon {
+  font-weight: 600;
+  font-size: 22px;
+  margin-right: 7px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.error-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  padding-top: 20px;
+}
+
+.lost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.under-lost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  background-color: #5d2e8e;
+  color: white;
+  cursor: pointer;
+  margin: auto;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.Error-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: white;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid white;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+.registration {
+  padding-bottom: 1em;
+}
+
+.Invoice {
+  margin-top: 1em;
+  font-weight: bold;
+  padding-left: 8px;
+  font-size: 18px;
+  margin-bottom: 0.5em;
+  color: rgb(0, 0, 0);
+}
+
+.cont-registration-btn {
+  text-decoration: none;
+  margin-top: 20px;
+  padding: 11px 20px;
+  width: 100%;
+  background-color: #5d2e8e;
+  color: white;
+  font-size: large;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1em;
+  position: relative; /* Ensure the button container is relative */
+  overflow: hidden; /* Ensure overflow is hidden for absolute positioning */
+}
+
+.cont-reg-div {
+  margin-top: 20px;
+}
+
+.cont-registration-btn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%; /* Adjust the size of the splash effect */
+  height: 300%; /* Adjust the size of the splash effect */
+  background-color: rgba(0, 0, 0, 0.4); /* Adjust the color and opacity */
+  transition: all 0.3s ease-out;
+  transform: translate(-50%, -50%) scale(0); /* Initial scale is 0 */
+  pointer-events: none; /* Ensure the overlay doesn't interfere with button click */
+}
+
+.cont-registration-btn:active::after {
+  transform: translate(-50%, -50%) scale(0.3); /* Scale up more on click */
+  opacity: 0; /* Fade out the overlay */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.btn-details {
+  text-decoration: none;
+  color: white;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.Big-Box-two {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  border: 1px solid black;
+  margin: 0 auto;
+  border: none;
+}
+
+.Big-Box-three {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  border: 1px solid black;
+  border: none;
+}
+
+.total-form {
+  height: 70px;
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+
+.insurance-sidebyside {
+  display: flex;
+  margin-right: 20px;
+}
+
+.go-back button:hover {
+  background-color: rgb(244, 52, 52);
+}
+
+.go-back button:active::after {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 0;
+}
+
+.payment-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.total-form p {
+  margin: 0;
+  padding-left: 12px;
+  padding-bottom: 5px;
+  font-weight: 500;
+  color: rgb(91, 91, 91);
+}
+
+.total-form h4 {
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.total-form input {
+  margin: 20px;
+}
+
+.formpage-box {
+  /* margin: 10px 10px; */
+  margin-top: 20px;
+}
+
+.sec {
+  margin-top: 0.3em;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.second-form input {
+  height: 40px;
+  width: 40%;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+
+.second-form {
+  margin-top: 15px;
+}
+
+.second-form label {
+  margin-bottom: 10px;
+}
+
+.form-sidebyside {
+  display: flex;
+}
+
+.second-label {
+  margin-top: 10px;
+}
+
+.form-btn {
+  height: 35px;
+  padding: 9px 16px;
+  text-decoration: none;
+  background-color: #5d2e8e;
+  color: white;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-btn-next {
+  margin-top: 20px;
+  width: 200px;
+}
+
+.form-btn-next button {
+  margin: 0;
+}
+
+.form-btn:hover {
+  background-color: #4caf50;
+}
+
+.btn-final {
+  text-decoration: none;
+  color: white;
+}
+
+.insurance-document {
+  display: flex;
+  flex-direction: column;
+}
+
+.final-page-arrow {
+  color: rgb(255, 136, 0);
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  gap: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.total-form-big {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 70px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  background-color: #f3eef9;
+}
+
+.payment-btn .final-submit {
+  background-color: #6224a4;
+}
+
+.second .Title-finalpage {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.total-form-big span {
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(69, 69, 69);
+}
+
+.total-form-big p {
+  margin: 0;
+  font-size: 17px;
+  color: rgb(98, 98, 98);
+}
+
+.payment-khalti {
+  display: flex;
+  font-size: 18px;
+  color: rgb(40, 40, 40);
+}
+.payment-bank {
+  font-size: 18px;
+  color: rgb(40, 40, 40);
+}
+
+.select-opt-linked-bank {
+  height: 40px;
+  font-size: 16px;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.final-submit:hover {
+  background-color: #4caf50;
+  font-size: 18px;
+}
+
+.upload-container {
+  margin-bottom: 15px;
+  width: 50%;
+}
+
+.upload-label {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.upload-insurance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10em;
+  width: 18.5em;
+  background-color: #ffffff;
+  border-radius: 3px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.upload-insurance input[type="file"] {
+  display: none;
+}
+
+.upload-insurance:hover {
+  background-color: #e0e0e0;
+}
+
+.upload-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.uploaded-image {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 768px) {
+  .bluebook-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .MAIN-BOX {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .Big-Box {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: none;
+    margin: 0 auto;
+  }
+
+  .p2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #7022c3;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .p2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+  }
+
+  .p2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .first {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .second {
+    margin-top: 5px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo img {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  .p3 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 7px;
+    display: flex;
+    justify-content: center;
+  }
+
+  label {
+    font-weight: 600;
+  }
+
+  form input {
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 80%;
+  }
+
+  #checkbox {
+    width: auto;
+    margin-left: 10px;
+  }
+
+  form select {
+    margin-bottom: 10px;
+    height: 35px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  label span {
+    color: red;
+  }
+
+  .manu-inp {
+    height: 2.8em;
+    padding: 1em;
+    border-radius: 4px;
+    border: 1px solid gray;
+    width: 100%;
+    margin-left: 2px;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+
+  .vehicle-type {
+    height: 45px;
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 2px;
+  }
+
+  .last-renewal {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inp-bs {
+    width: 92%;
+    height: 2.2em;
+    font-size: 16px;
+    margin-left: 2px;
+    margin-top: 10px;
+  }
+
+  .last-renewal span {
+    margin-top: 13px;
+    font-weight: 650;
+  }
+
+  .terms {
+    color: #5d2e8e;
+    text-align: center;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+  }
+
+  .note {
+    padding: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 100%;
+    color: rgb(83, 83, 83);
+    background-color: #f3eef9;
+    border: 0.5px solid rgb(108, 108, 108);
+  }
+
+  .calculate {
+    height: 40px;
+    width: 100%;
+    color: white;
+    background-color: #5d2e8e;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+  }
+
+  .calculate:hover {
+    background-color: #39b33d;
+  }
+
+  .btn-link {
+    color: white;
+    text-decoration: none;
+  }
+
+  .Title {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+
+  .phone-icon {
+    font-weight: 600;
+    font-size: 22px;
+    margin-right: 7px;
+  }
+
+  .message-icon {
+    font-weight: 600;
+    font-size: 22px;
+    margin-right: 7px;
+  }
+
+  .total-form {
+    height: fit-content;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 3px;
+  }
+
+  .total-form p {
+    margin: 0;
+    padding-left: 12px;
+    padding-bottom: 5px;
+  }
+
+  .total-form h4 {
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 5px;
+  }
+
+  .second-form input {
+    height: 35px;
+    width: 90%;
+    border-radius: 3px;
+    margin: 10px;
+    margin-left: 0px;
+    border: 1px solid gray;
+  }
+
+  .second-form {
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .sec {
+    margin-bottom: 10px;
+  }
+
+  .second-label {
+    margin-top: 10px;
+  }
+
+  .form-btn {
+    width: 100%;
+    height: 35px;
+    background-color: #5d2e8e;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-btn-next {
+    width: 200px;
+  }
+
+  .btn-final {
+    text-decoration: none;
+    color: white;
+  }
+
+  .insurance-document {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .final-page-arrow {
+    color: rgb(255, 136, 0);
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    gap: 7px;
+    margin-top: 5px;
+  }
+
+  .total-form-big {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: #f3eef9;
+  }
+
+  .total-form-big span {
+    margin: 0;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(69, 69, 69);
+  }
+
+  .total-form-big p {
+    margin: 0;
+    font-size: 17px;
+    color: rgb(98, 98, 98);
+  }
+
+  .payment-khalti {
+    font-size: 18px;
+    color: rgb(40, 40, 40);
+  }
+
+  .payment-bank {
+    font-size: 18px;
+    color: rgb(40, 40, 40);
+  }
+
+  .select-opt-linked-bank {
+    height: 35px;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .final-submit {
+    width: 100%;
+    height: 35px;
+    color: white;
+    background-color: #5d2e8e;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 1em;
+  }
+
+  .checkbox {
+    display: flex;
+    justify-content: start;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th,
+  td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid white;
+  }
+
+  tr:nth-child(even) {
+    background-color: white;
+  }
+
+  .Invoice {
+    padding-left: 8px;
+    font-weight: bold;
+    margin: 0px;
+  }
+
+  .cont-registration-btn {
+    height: 40px;
+    width: 100%;
+    background-color: #6224a4;
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 1em;
+  }
+
+  .btn-details {
+    text-decoration: none;
+    color: white;
+  }
+
+  .Big-Box-two {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0 auto;
+    border: none;
+  }
+
+  .Big-Box-three {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0 auto;
+    border: none;
+  }
+
+  .total-form {
+    height: fit-content;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 3px;
+  }
+
+  .total-form p {
+    margin: 0;
+    padding-left: 12px;
+    padding-bottom: 5px;
+  }
+
+  .total-form h4 {
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 5px;
+  }
+
+  .second-form {
+    margin-top: 15px;
+  }
+
+  .second-label {
+    margin-top: 10px;
+  }
+
+  .form-btn {
+    width: 100%;
+    height: 35px;
+    background-color: #5d2e8e;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .btn-final {
+    text-decoration: none;
+    color: white;
+  }
+
+  .insurance-document {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .final-page-arrow {
+    color: rgb(255, 136, 0);
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    gap: 7px;
+  }
+
+  .total-form-big {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: #f3eef9;
+  }
+
+  .total-form-big span {
+    margin: 0;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(69, 69, 69);
+  }
+
+  .total-form-big p {
+    margin: 0;
+    font-size: 17px;
+    color: rgb(98, 98, 98);
+  }
+
+  .payment-khalti {
+    font-size: 18px;
+    color: rgb(40, 40, 40);
+  }
+
+  .payment-bank {
+    font-size: 18px;
+    color: rgb(40, 40, 40);
+  }
+
+  .select-opt-linked-bank {
+    height: 35px;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .final-submit {
+    width: 100%;
+    height: 35px;
+    color: white;
+    background-color: #5d2e8e;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .error-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding-top: 20px;
+  }
+
+  .lost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+
+  .under-lost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .error-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #5d2e8e;
+    color: white;
+    cursor: pointer;
+    margin: auto;
+  }
+
+  .Error-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  thead {
+    background-color: white;
+  }
+
+  th,
+  td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid white;
+  }
+
+  tr:nth-child(even) {
+    background-color: white;
+  }
+
+  .Invoice {
+    padding-left: 8px;
+    font-weight: bold;
+  }
+
+  .cont-registration-btn {
+    height: 40px;
+    width: 100%;
+    background-color: #5d2e8e;
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .btn-details {
+    text-decoration: none;
+    color: white;
+  }
+
+  .Big-Box-two {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0 auto;
+    border: none;
+  }
+
+  .Big-Box-three {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0 auto;
+    border: none;
+  }
+
+  .total-form {
+    height: fit-content;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 3px;
+  }
+
+  .total-form p {
+    margin: 0;
+    padding-left: 12px;
+    padding-bottom: 5px;
+  }
+
+  .total-form h4 {
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 5px;
+  }
+
+  .second-form {
+    margin-top: 15px;
+  }
+
+  .second-label {
+    margin-top: 10px;
+  }
+
+  .form-btn {
+    width: 100%;
+    height: 35px;
+    background-color: #5d2e8e;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .btn-final {
+    text-decoration: none;
+    color: white;
+  }
+
+  .insurance-document {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .final-page-arrow {
+    color: rgb(255, 136, 0);
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    gap: 7px;
+  }
+
+  .total-form-big {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: #f3eef9;
+  }
+
+  .total-form-big span {
+    margin: 0;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(69, 69, 69);
+  }
+
+  .total-form-big p {
+    margin: 0;
+    font-size: 17px;
+    color: rgb(98, 98, 98);
+  }
+
+  .payment-khalti {
+    font-size: 18px;
+    color: rgb(40, 40, 40);
+  }
+
+  .payment-bank {
+    font-size: 18px;
+    color: rgb(40, 40, 40);
+  }
+
+  .select-opt-linked-bank {
+    height: 35px;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .final-submit {
+    width: 100%;
+    height: 35px;
+    color: white;
+    background-color: #5d2e8e;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .upload-container {
+    margin-bottom: 15px;
+    padding: 10px;
+    padding-left: 0px;
+  }
+
+  .upload-label {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+
+  .upload-insurance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    width: 80%;
+    background-color: #ffffff;
+    /* border: 1px solid #ffaa00; */
+    border-radius: 3px;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+
+  .upload-insurance input[type="file"] {
+    display: none;
+  }
+
+  .upload-insurance button {
+    background-color: #ffaa00;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .upload-insurance button:hover {
+    background-color: #ff9000;
+  }
+
+  .Invoice {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+
+  th,
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .btn-details {
+    text-decoration: none;
+    color: black;
+  }
+
+  .cont-registration-btn {
+    background-color: #9843f1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .cont-registration-btn:hover {
+    background-color: #7022c3;
+  }
+
+  .checkbox-container input {
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+  }
+  .checkbox-container label {
+    height: 20px;
+    font-size: 1.1em;
+    margin-left: 10px;
+  }
+
+  .alert {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    z-index: 1000;
+    animation: slideIn 0.5s forwards, fadeOut 2s forwards 2.5s;
+    display: flex;
+    justify-content: center;
+  }
+
+  @keyframes slideIn {
+    from {
+      top: -50px;
+    }
+    to {
+      top: 0;
+    }
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+}
+
+.note {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.terms-content {
+  font-size: 14px;
+}
+
+.terms-content p {
+  margin: 10px;
+  font-size: 13px;
+}
+
+.term-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.term-close button {
+  background-color: #7a29d1;
+  color: white;
+  width: 6em;
+  height: 2em;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.term-close button:hover {
+  background-color: #39b33d;
+}
+
+.terms-h1 {
+  background-color: #7022c3;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.alert {
+  margin-top: 10px;
+  border-radius: 10px;
+  position: fixed;
+  top: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  width: 50%;
+  z-index: 1000;
+  animation: slideIn 0.5s forwards, fadeOut 2s forwards 2.5s;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+@keyframes slideIn {
+  from {
+    top: -50px;
+  }
+  to {
+    top: 0;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+.header {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+/* Payment confirmation content */
+.payment-confirmation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.payment-confirmation-content {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  width: 90%;
+}
+
+.payment-confirmation-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.payment-confirmation-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.green-button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  background-color: #5d2e8e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.green-button:hover {
+  background-color: #7a29d1;
+  transform: scale(1.05);
+}
+
+.checkmark {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.checkmark:before,
+.checkmark:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 40px;
+  background: transparent;
+  content: "";
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.checkmark:before {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.checkmark:after {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.green-button:hover .checkmark:before,
+.green-button:hover .checkmark:after {
+  opacity: 1;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .main-container {
+    width: 70%;
+  }
+
+  .upload-insurance {
+    width: 14.5em;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .upload-insurance {
+    width: 14.5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .payment-confirmation-content {
+    padding: 20px;
+  }
+
+  .payment-confirmation-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .payment-confirmation-content p {
+    font-size: 1rem;
+  }
+
+  .green-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+.payment-confirmation-wrapper {
+  position: relative;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+.span-khalti {
+  font-size: 18px;
+  color: #6224a4;
+  font-weight: bold;
+  padding: 3px;
+}
+
+@media (max-width: 768px) {
+  .payment-btn {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .payment-btn button {
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  .total-form-big span {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .total-form-big p {
+    font-size: 18px;
+  }
+
+  .span-khalti {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .MAIN-BOX {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .payment-btn button {
+    font-size: 16px;
+    height: 36px;
+  }
+
+  .total-form-big span {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .total-form-big p {
+    font-size: 16px;
+  }
+}
+
+.single-label-inp {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.single-label-inp input {
+  width: 85%;
+}
+
+@media (max-width: 520px) {
+  .form-sidebyside {
+    display: block;
+  }
+
+  .single-label-inp {
+    width: 100%;
+  }
+
+  .single-label-inp input {
+    width: 100%;
+  }
+
+  .upload-insurance {
+    width: 100%;
+  }
+}
+
+.error {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 0.25em;
+}
+
+.vehicle-type.error,
+.manu-inp.error,
+.inp-bs.error {
+  border: 1px solid red;
+}

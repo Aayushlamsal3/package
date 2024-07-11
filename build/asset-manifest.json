@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.afed0a83.css",
+    "main.js": "/static/js/main.0717c423.js",
+    "static/js/453.f98f660f.chunk.js": "/static/js/453.f98f660f.chunk.js",
+    "static/media/khalti.png": "/static/media/khalti.ae8a5faec7cafeaf2eb1.png",
+    "index.html": "/index.html",
+    "main.afed0a83.css.map": "/static/css/main.afed0a83.css.map",
+    "main.0717c423.js.map": "/static/js/main.0717c423.js.map",
+    "453.f98f660f.chunk.js.map": "/static/js/453.f98f660f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afed0a83.css",
+    "static/js/main.0717c423.js"
+  ]
+}
